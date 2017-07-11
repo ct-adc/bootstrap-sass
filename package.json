@@ -5,8 +5,9 @@
   "main": "assets/javascripts/bootstrap.js",
   "style": "assets/stylesheets/_bootstrap.scss",
   "sass": "assets/stylesheets/_bootstrap.scss",
-  "scripts":{
-      "css-build":"sass -t compressed assets/stylesheets/_bootstrap.scss:assets/css/bootstrap.min.css & sass assets/stylesheets/_bootstrap.scss:assets/css/bootstrap.css"
+  "scripts": {
+    "css-min-build": "sass -t compressed assets/stylesheets/_bootstrap.scss:assets/css/bootstrap.min.css",
+    "css-build": "sass assets/stylesheets/_bootstrap.scss:assets/css/bootstrap.css"
   },
   "files": [
     "assets",
