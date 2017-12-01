@@ -12,7 +12,10 @@
     padding-right: 5px;
   }
 }
-
+.form-horizontal .form-group{
+    margin-left: -5px;
+    margin-right: -5px;
+}
 .pagination {
   margin: 0 0 10px 0;
   vertical-align: top;
@@ -44,6 +47,19 @@
   background-color: #fff;
   border-color: #d1dbe5;
   color: #bfcbd9;
+}
+.modal.in .modal-dialog{
+    margin-left: 50vw;
+    -webkit-transform: translateX(-50%);
+    -ms-transform: translateX(-50%);
+    -o-transform: translateX(-50%);
+    transform: translateX(-50%);
+    -webkit-transition: initial;
+    -moz-transition: initial;
+    -o-transition: initial;
+    transition: initial;
+    background-color: #fff;
+    border-radius: 6px;
 }
 
 .loading {
