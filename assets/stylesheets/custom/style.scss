@@ -54,12 +54,14 @@
     -ms-transform: translateX(-50%);
     -o-transform: translateX(-50%);
     transform: translateX(-50%);
-    -webkit-transition: initial;
-    -moz-transition: initial;
-    -o-transition: initial;
-    transition: initial;
     background-color: #fff;
     border-radius: 6px;
+}
+.modal.in .modal-dialog, .modal.fade .modal-dialog{
+  -webkit-transition: initial;
+  -moz-transition: initial;
+  -o-transition: initial;
+  transition: initial;
 }
 
 .loading {
